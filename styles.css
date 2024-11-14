@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color:#b57edc;
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:#ddb9f7;
+   }
+
+   #menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:150px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
+
+
+
+.busqueda-login {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.busqueda-login input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #b57edc;
+    border-radius: 5px;
+}
+
+.busqueda-login button {
+    padding: 10px;
+    background-color: #b57edc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.busqueda-login button:hover {
+    background-color: #7f00ae;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+    background-color: #e5caf3;
+    border-bottom: 2px solid #f7f7f7;
+}
+
+#foro {
+    margin: 20px;
+}
+
+#publicaciones {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #e5caf3;
+    border-radius: 5px;
+    border: 1px solid #fdfbfd;
+}
+
+#catalogo {
+    margin: 20px;
+    padding: 15px;
+    background-color: #f2ebf6;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.recetas-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tarjeta-receta {
+    background-color: #ffffff;
+    border: 1px solid #b191bd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta-receta img {
+    width: 22%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+
+.estrellas {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.estrella {
+    font-size: 24px; /* Tamaño de las estrellas */
+    color: gold; /* Color de las estrellas llenas */
+    cursor: pointer; /* Cambiar cursor al pasar sobre las estrellas */
+}
+
+.estrella:hover {
+    color: orange; /* Color al pasar el cursor */
+}
+
+.tarjeta- img {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+
+.tarjeta-receta img:hover {
+    box-shadow: 0 0 15px 5px rgba(120, 66, 244, 0.836); /* Color neón */
+    transform: scale(1.05); /* Pequeño aumento de tamaño */
+}
+
+.tarjeta-receta h3 {
+    margin: 15px 0 5px;
+    font-size: 1.2em;
+    color: #8400ff;
+}
+
+.tarjeta-receta p {
+    font-size: 0.9em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+footer {
+    background-color: #dacdff;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #b191bd;
+
+}
+
+
+.frasesabuela img {
+    width: 20%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transform: translate(10px, 10px); 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  
+}
+
+.consejo {
+
+    background-color: #ffffff;
+    border: 1px solid #e5caf3(255, 255, 255);
+    border-radius: 30px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    position: right;
+
+
+
+
+
+}
+    
+.consejo h2 {
+    
+   
+    background-color: #dacdff;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #b191bd;
+}
+    
+
+
+

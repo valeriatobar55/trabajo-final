@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fORO</title>
+    <link rel="stylesheet" href="foro.css">
+
+</head>
+<body>
+   <H1>Comparte aqui tus ideas</H1>
+    <div class="comentar-login">
+        <input type="text" placeholder="Comparte tu idea" id="barraBusqueda">
+        <button>comentar</button>
+    </div>
+
+    <button onclick="comentar()">comenta</button>
+
+    <form action="comentar">
+        <textarea placeholder="Escribe tu comentario aquí..." name="comentario"></textarea>
+        <button type="submit">Enviar comentario</button>
+      </form>
+
+    <script>
+        function comentar() {
+    let comentar = prompt ("comparte tu idea")
+    alert = prompt("tu comentario fue" + comentar)
+}
+
+    </script>
+
+
+
+
+
+
+    </script>
+</body>
+</html>
